@@ -2,7 +2,11 @@
 Governance Bot which will make your work easier
 # Initia Voting Script
 
-This script automates the voting process on the Initia testnet. It checks for active proposals and sends them to a specified Telegram chat. The script then waits for user input or votes automatically when the voting period is about to end.
+This script simplifies the voting process on the Initia testnet. It checks for active proposals and sends their details to a specified Telegram chat using API requests. Users can then vote by selecting options in the Telegram chat. The script captures these responses and submits the votes accordingly.
+
+**Note:** This script does not perform automatic voting. It facilitates the voting process by integrating with Telegram for user input.
+
+<img width="362" alt="image" src="https://github.com/web3validator/Initia_Governance_bot/assets/59205554/6281bad0-e3cb-4f46-b673-3bea7a66f1fa">
 
 ## Prerequisites
 
