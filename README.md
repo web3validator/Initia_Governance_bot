@@ -1,4 +1,4 @@
-# Initia_Goverannce_bot
+# Initia_Governance_bot
 Governance Bot which will make your work easier
 # Initia Voting Script
 
