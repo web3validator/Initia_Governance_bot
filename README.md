@@ -59,10 +59,10 @@ crontab -e
 Add the following line to run the script every hour:
 
  ```
-0 * * * * /path/to/your/repository/initia_vote.sh
+0 * * * * /home/admin/Initia_Goverannce_bot/initia_vote.sh
  ```
 
-Replace /path/to/your/repository/ with the actual path to the script.
+Replace /home/admin/Initia_Goverannce_bot with the actual path to the script.
 
 Save and exit the crontab editor.
 
@@ -70,7 +70,7 @@ Save and exit the crontab editor.
 The script does not produce log files by default. To log the output, you can modify the crontab entry:
 
  ```
-0 * * * * /path/to/your/repository/initia_vote.sh >> /path/to/your/repository/initia_vote.log 2>&1
+0 * * * * /home/admin/Initia_Goverannce_bot/initia_vote.sh >> /path/to/your/repository/initia_vote.log 2>&1
  ```
 ## Notes
 Ensure the BOT_TOKEN and CHAT_ID are kept secure and not exposed in public repositories.
