@@ -70,7 +70,7 @@ Save and exit the crontab editor.
 The script does not produce log files by default. To log the output, you can modify the crontab entry:
 
  ```
-0 * * * * /home/admin/Initia_Goverannce_bot/initia_vote.sh >> /path/to/your/repository/initia_vote.log 2>&1
+0 * * * * /home/admin/Initia_Goverannce_bot/initia_vote.sh >> /home/admin/Initia_Goverannce_bot/initia_vote.log 2>&1
  ```
 ## Notes
 Ensure the BOT_TOKEN and CHAT_ID are kept secure and not exposed in public repositories.
